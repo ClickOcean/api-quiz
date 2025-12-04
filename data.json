@@ -1,0 +1,160 @@
+{
+  "quizSteps": [
+    {
+      "name": "form-quiz-relationship",
+      "type": "single",
+      "required": true,
+      "title": {
+        "en-US": "What type of relationship are you looking for?"
+      },
+      "subtitle": {
+        "en-US": "Select the option that best describes…"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "relationship_type",
+      "options": [
+        {
+          "value": "serious",
+          "label": { "en-US": "Serious relationship" }
+        },
+        {
+          "value": "casual",
+          "label": { "en-US": "Casual dating" }
+        },
+        {
+          "value": "friendship",
+          "label": { "en-US": "Friendship first" }
+        },
+        {
+          "value": "not-sure",
+          "label": { "en-US": "Not sure yet" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-lifestyle",
+      "type": "multi",
+      "required": false,
+      "title": {
+        "en-US": "What describes your lifestyle?"
+      },
+      "subtitle": {
+        "en-US": "You can select multiple options"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "lifestyle",
+      "options": [
+        {
+          "value": "active",
+          "label": { "en-US": "Active & Outdoorsy" }
+        },
+        {
+          "value": "homebody",
+          "label": { "en-US": "Homebody" }
+        },
+        {
+          "value": "social",
+          "label": { "en-US": "Social butterfly" }
+        },
+        {
+          "value": "workaholic",
+          "label": { "en-US": "Career-focused" }
+        },
+        {
+          "value": "creative",
+          "label": { "en-US": "Creative & Artistic" }
+        },
+        {
+          "value": "adventurous",
+          "label": { "en-US": "Adventurous" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-interests",
+      "type": "multi",
+      "required": false,
+      "title": {
+        "en-US": "What are your main interests?"
+      },
+      "subtitle": {
+        "en-US": "Select all that apply"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "interests",
+      "options": [
+        {
+          "value": "sports",
+          "label": { "en-US": "Sports & Fitness" }
+        },
+        {
+          "value": "music",
+          "label": { "en-US": "Music" }
+        },
+        {
+          "value": "travel",
+          "label": { "en-US": "Travel" }
+        },
+        {
+          "value": "food",
+          "label": { "en-US": "Food & Cooking" }
+        },
+        {
+          "value": "movies",
+          "label": { "en-US": "Movies & TV" }
+        },
+        {
+          "value": "reading",
+          "label": { "en-US": "Reading" }
+        },
+        {
+          "value": "gaming",
+          "label": { "en-US": "Gaming" }
+        },
+        {
+          "value": "art",
+          "label": { "en-US": "Art & Culture" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-communication",
+      "type": "single",
+      "required": true,
+      "title": {
+        "en-US": "How do you prefer to communicate?"
+      },
+      "subtitle": {
+        "en-US": "Choose your preferred style"
+      },
+      "submit": {
+        "en-US": "Finish"
+      },
+      "fieldName": "communication_style",
+      "options": [
+        {
+          "value": "texting",
+          "label": { "en-US": "Text messages" }
+        },
+        {
+          "value": "calls",
+          "label": { "en-US": "Phone calls" }
+        },
+        {
+          "value": "video",
+          "label": { "en-US": "Video calls" }
+        },
+        {
+          "value": "in-person",
+          "label": { "en-US": "In person" }
+        }
+      ]
+    }
+  ]
+}
