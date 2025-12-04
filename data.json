@@ -23,6 +23,9 @@
       ]
     },
     {
+      "name": "interests"
+    },
+    {
       "name": "form-quiz-age-range",
       "type": "single",
       "required": true,
