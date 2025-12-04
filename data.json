@@ -1,6 +1,65 @@
 {
   "quizSteps": [
     {
+      "name": "form-quiz-gender",
+      "type": "button",
+      "required": true,
+      "title": {
+        "en-US": "I am a..."
+      },
+      "subtitle": {
+        "en-US": "Please select your gender"
+      },
+      "fieldName": "gender",
+      "options": [
+        {
+          "value": "male",
+          "label": { "en-US": "Man" }
+        },
+        {
+          "value": "female",
+          "label": { "en-US": "Woman" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-age-range",
+      "type": "single",
+      "required": true,
+      "title": {
+        "en-US": "What's your age range?"
+      },
+      "subtitle": {
+        "en-US": "This helps us find compatible matches"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "age_range",
+      "options": [
+        {
+          "value": "18-24",
+          "label": { "en-US": "18-24" }
+        },
+        {
+          "value": "25-34",
+          "label": { "en-US": "25-34" }
+        },
+        {
+          "value": "35-44",
+          "label": { "en-US": "35-44" }
+        },
+        {
+          "value": "45-54",
+          "label": { "en-US": "45-54" }
+        },
+        {
+          "value": "55+",
+          "label": { "en-US": "55+" }
+        }
+      ]
+    },
+    {
       "name": "form-quiz-relationship",
       "type": "single",
       "required": true,
@@ -30,6 +89,43 @@
         {
           "value": "not-sure",
           "label": { "en-US": "Not sure yet" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-education",
+      "type": "single",
+      "required": false,
+      "title": {
+        "en-US": "What's your education level?"
+      },
+      "subtitle": {
+        "en-US": "Optional - helps find similar matches"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "education",
+      "options": [
+        {
+          "value": "high-school",
+          "label": { "en-US": "High School" }
+        },
+        {
+          "value": "some-college",
+          "label": { "en-US": "Some College" }
+        },
+        {
+          "value": "bachelors",
+          "label": { "en-US": "Bachelor's Degree" }
+        },
+        {
+          "value": "masters",
+          "label": { "en-US": "Master's Degree" }
+        },
+        {
+          "value": "doctorate",
+          "label": { "en-US": "Doctorate" }
         }
       ]
     },
@@ -120,6 +216,81 @@
         {
           "value": "art",
           "label": { "en-US": "Art & Culture" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-values",
+      "type": "multi",
+      "required": false,
+      "title": {
+        "en-US": "What values are most important to you?"
+      },
+      "subtitle": {
+        "en-US": "Choose up to 5 values"
+      },
+      "submit": {
+        "en-US": "Continue"
+      },
+      "fieldName": "values",
+      "options": [
+        {
+          "value": "honesty",
+          "label": { "en-US": "Honesty" }
+        },
+        {
+          "value": "loyalty",
+          "label": { "en-US": "Loyalty" }
+        },
+        {
+          "value": "humor",
+          "label": { "en-US": "Sense of Humor" }
+        },
+        {
+          "value": "ambition",
+          "label": { "en-US": "Ambition" }
+        },
+        {
+          "value": "family",
+          "label": { "en-US": "Family-oriented" }
+        },
+        {
+          "value": "independence",
+          "label": { "en-US": "Independence" }
+        },
+        {
+          "value": "kindness",
+          "label": { "en-US": "Kindness" }
+        },
+        {
+          "value": "intelligence",
+          "label": { "en-US": "Intelligence" }
+        }
+      ]
+    },
+    {
+      "name": "form-quiz-smoking",
+      "type": "button",
+      "required": true,
+      "title": {
+        "en-US": "Do you smoke?"
+      },
+      "subtitle": {
+        "en-US": "Be honest to find compatible matches"
+      },
+      "fieldName": "smoking",
+      "options": [
+        {
+          "value": "yes",
+          "label": { "en-US": "Yes, regularly" }
+        },
+        {
+          "value": "sometimes",
+          "label": { "en-US": "Socially" }
+        },
+        {
+          "value": "no",
+          "label": { "en-US": "No, never" }
         }
       ]
     },
