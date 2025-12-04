@@ -305,7 +305,7 @@
         "en-US": "Choose your preferred style"
       },
       "submit": {
-        "en-US": "Finish"
+        "en-US": "Next"
       },
       "fieldName": "communication_style",
       "options": [
