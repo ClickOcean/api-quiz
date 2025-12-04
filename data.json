@@ -4,6 +4,15 @@
       "name": "form-birthday"
     },
     {
+      "name": "form-who-attract",
+      "title": {
+        "en-US": "Who do you find attractive?"
+      },
+      "subtitle": {
+        "en-US": "This helps us find compatible matches"
+      }
+    },
+    {
       "name": "form-quiz-age-range",
       "type": "single",
       "required": true,
